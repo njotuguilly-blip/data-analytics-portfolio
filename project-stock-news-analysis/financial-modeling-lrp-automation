@@ -1,0 +1,34 @@
+# Public Cloud LRP Financial Model
+**Goal:** This project builds a long‑range (5 year) financial model for public cloud consumption,cost forecasting, 
+and scenario analysis. Includes baseline assessment, scenario modeling, and strategic recommendations.
+
+**Tech Stack**
+### Core Modeling
+- Python (Pandas, NumPy, Scipy)
+- Jupyter Notebook
+- Cloud economics modeling (AWS/GCP/Azure)
+### Financial Modeling
+- Driver-Based Modeling (Volume & Rate Drivers)
+- Monte Carlo Simulation (P10 / P50 / P90 Forecasting)
+- Scenario Analysis (Base / Upside / Downside)
+### Visualization
+- Plotly (Interactive Fan Charts, Waterfall Charts, Scenario Comparisons)
+- Matplotlib (Baseline plotting)
+### Data & Validation
+- Excel (LRP Model Validation)
+- JSON (Model Versioning & Snapshot Storage)
+### Data Engineering 
+- Python-based ETL concepts (data structuring, transformation)
+
+**Highlights**
+- Built a production-style financial model in Jupyter Notebook simulating a 5-year cloud revenue forecast
+- Implemented Monte Carlo simulation (10,000 runs) to generate P10 / P50 / P90 financial scenarios  
+- Designed a driver-based modeling framework separating customer growth (volume) and pricing/cost drivers (rate)  
+- Developed interactive Plotly dashboards including fan charts, scenario comparisons, and waterfall variance analysis  
+- Translated financial logic into scalable Python models, reducing reliance on static Excel-based approaches  
+- Performed Excel-to-Python validation with tolerance checks to ensure numerical accuracy  
+- Built a model versioning system to track assumptions, outputs, and enable point-in-time reconstruction  
+- Generated automated business commentary explaining financial changes 
+
+
+
